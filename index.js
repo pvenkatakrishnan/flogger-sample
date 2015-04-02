@@ -23,4 +23,6 @@ app.get('/hello', require('./controllers/helloHandler'));
 
 app.get('/byebye', require('./controllers/byebyeHandler'));
 
-app.listen(8000);
+app.listen(8000, function() {
+    console.info('Listening on 8000');
+});
