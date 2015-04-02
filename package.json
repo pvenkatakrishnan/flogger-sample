@@ -1,0 +1,21 @@
+{
+  "name": "flogger-sample",
+  "version": "1.0.0",
+  "description": "A sample app demonstration for flogger",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Poornima Venkatakrishnan",
+    "email": "poornima.venkatakrishnan@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pvenkatakrishnan/flogger-sample.git"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "flogger": "git://github.com/pvenkatakrishnan/flogger.git",
+    "nock": "^1.4.0",
+    "pine": "^1.1.0",
+    "wreck": "^5.4.0"
+  }
+}

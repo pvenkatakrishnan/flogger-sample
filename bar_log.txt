@@ -1,0 +1,65 @@
+{"level":"info","message":"[50183:bar] middleware:\"Setting profile info\"","timestamp":"2015-04-02T19:09:57.725Z"}
+{"level":"info","message":"[50183:bar] middleware:\"Setting permissions\"","timestamp":"2015-04-02T19:09:57.727Z"}
+{"level":"info","message":"[50183:bar] business:\"French User login alert\"","timestamp":"2015-04-02T19:09:57.727Z"}
+{"level":"info","message":"[50183:bar] UI:\"Sending response for /hello\"","timestamp":"2015-04-02T19:09:57.727Z"}
+{"level":"info","message":"[50185:bar] middleware:\"Setting profile info\"","timestamp":"2015-04-02T19:11:13.076Z"}
+{"level":"info","message":"[50185:bar] middleware:\"Setting permissions\"","timestamp":"2015-04-02T19:11:13.077Z"}
+{"level":"info","message":"[50185:bar] business:\"French User login alert\"","timestamp":"2015-04-02T19:11:13.077Z"}
+{"level":"info","message":"[50185:bar] UI:\"Sending response for /hello\"","timestamp":"2015-04-02T19:11:13.077Z"}
+{"level":"info","message":"[50190:bar] middleware:\"Setting profile info\"","timestamp":"2015-04-02T19:13:54.496Z"}
+{"level":"info","message":"[50190:bar] middleware:\"Setting permissions\"","timestamp":"2015-04-02T19:13:54.497Z"}
+{"level":"info","message":"[50190:bar] business:\"French User login alert\"","timestamp":"2015-04-02T19:13:54.498Z"}
+{"level":"info","message":"[50190:bar] UI:\"Sending response for /hello\"","timestamp":"2015-04-02T19:13:54.498Z"}
+{"level":"info","message":"[50190:bar] middleware:\"Setting profile info\"","timestamp":"2015-04-02T19:13:59.773Z"}
+{"level":"info","message":"[50190:bar] middleware:\"Setting permissions\"","timestamp":"2015-04-02T19:13:59.773Z"}
+{"level":"info","message":"[50230:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:00:03.128Z"}
+{"level":"info","message":"[50230:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:00:03.129Z"}
+{"level":"info","message":"[50231:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:02:25.214Z"}
+{"level":"info","message":"[50231:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:02:25.215Z"}
+{"level":"info","message":"[50231:bar] services:{\"protocol\":\"http:\",\"hostname\":\"localhost\",\"port\":8080,\"method\":\"GET\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID803\"}","timestamp":"2015-04-02T20:02:25.216Z"}
+{"level":"info","message":"[50234:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:03:46.682Z"}
+{"level":"info","message":"[50234:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:03:46.683Z"}
+{"level":"info","message":"[50234:bar] services:{\"protocol\":\"http:\",\"hostname\":\"localhost\",\"port\":8080,\"method\":\"GET\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID125\"}","timestamp":"2015-04-02T20:03:46.683Z"}
+{"level":"error","message":"[50234:bar] services:{\"name\":\"NetConnectNotAllowedError\",\"message\":\"Client request error: Nock: Not allow net connect for \\\"localhost:8080/activities\\\"\",\"trace\":[{\"method\":\"GET\",\"url\":\"http://localhost:8080/activities\"}],\"isBoom\":true,\"isServer\":true,\"data\":null,\"output\":{\"statusCode\":502,\"payload\":{\"statusCode\":502,\"error\":\"Bad Gateway\",\"message\":\"Nock: Not allow net connect for \\\"localhost:8080/activities\\\"\"},\"headers\":{}},\"uniqueId\":\"ID125\"}","timestamp":"2015-04-02T20:03:46.685Z"}
+{"level":"error","message":"[50234:bar] business:Error while doing activity.getAll","timestamp":"2015-04-02T20:03:46.686Z"}
+{"level":"info","message":"[50237:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:05:27.485Z"}
+{"level":"info","message":"[50237:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:05:27.486Z"}
+{"level":"info","message":"[50237:bar] services:{\"protocol\":\"http:\",\"hostname\":\"localhost\",\"port\":8001,\"method\":\"GET\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID557\"}","timestamp":"2015-04-02T20:05:27.486Z"}
+{"level":"error","message":"[50237:bar] services:{\"name\":\"NetConnectNotAllowedError\",\"message\":\"Client request error: Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\",\"trace\":[{\"method\":\"GET\",\"url\":\"http://localhost:8001/activities\"}],\"isBoom\":true,\"isServer\":true,\"data\":null,\"output\":{\"statusCode\":502,\"payload\":{\"statusCode\":502,\"error\":\"Bad Gateway\",\"message\":\"Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\"},\"headers\":{}},\"uniqueId\":\"ID557\"}","timestamp":"2015-04-02T20:05:27.488Z"}
+{"level":"error","message":"[50237:bar] business:Error while doing activity.getAll","timestamp":"2015-04-02T20:05:27.488Z"}
+{"level":"info","message":"[50296:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:05:54.610Z"}
+{"level":"info","message":"[50296:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:05:54.611Z"}
+{"level":"info","message":"[50296:bar] services:{\"protocol\":\"http:\",\"hostname\":\"localhost\",\"port\":8001,\"method\":\"GET\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID186\"}","timestamp":"2015-04-02T20:05:54.611Z"}
+{"level":"error","message":"[50296:bar] services:{\"name\":\"NetConnectNotAllowedError\",\"message\":\"Client request error: Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\",\"trace\":[{\"method\":\"GET\",\"url\":\"http://localhost:8001/activities\"}],\"isBoom\":true,\"isServer\":true,\"data\":null,\"output\":{\"statusCode\":502,\"payload\":{\"statusCode\":502,\"error\":\"Bad Gateway\",\"message\":\"Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\"},\"headers\":{}},\"uniqueId\":\"ID186\"}","timestamp":"2015-04-02T20:05:54.614Z"}
+{"level":"error","message":"[50296:bar] business:Error while doing activity.getAll","timestamp":"2015-04-02T20:05:54.614Z"}
+{"level":"info","message":"[50297:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:06:15.324Z"}
+{"level":"info","message":"[50297:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:06:15.325Z"}
+{"level":"info","message":"[50297:bar] services:{\"protocol\":\"http:\",\"hostname\":\"localhost\",\"port\":8001,\"method\":\"GET\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID497\"}","timestamp":"2015-04-02T20:06:15.325Z"}
+{"level":"error","message":"[50297:bar] services:{\"name\":\"NetConnectNotAllowedError\",\"message\":\"Client request error: Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\",\"trace\":[{\"method\":\"GET\",\"url\":\"http://localhost:8001/activities\"}],\"isBoom\":true,\"isServer\":true,\"data\":null,\"output\":{\"statusCode\":502,\"payload\":{\"statusCode\":502,\"error\":\"Bad Gateway\",\"message\":\"Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\"},\"headers\":{}},\"uniqueId\":\"ID497\"}","timestamp":"2015-04-02T20:06:15.327Z"}
+{"level":"error","message":"[50297:bar] business:Error while doing activity.getAll","timestamp":"2015-04-02T20:06:15.327Z"}
+{"level":"info","message":"[50298:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:07:30.884Z"}
+{"level":"info","message":"[50298:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:07:30.884Z"}
+{"level":"info","message":"[50298:bar] services:{\"protocol\":\"http:\",\"hostname\":\"localhost\",\"port\":8001,\"method\":\"GET\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID902\"}","timestamp":"2015-04-02T20:07:30.885Z"}
+{"level":"error","message":"[50298:bar] services:{\"name\":\"NetConnectNotAllowedError\",\"message\":\"Client request error: Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\",\"trace\":[{\"method\":\"GET\",\"url\":\"http://localhost:8001/activities\"}],\"isBoom\":true,\"isServer\":true,\"data\":null,\"output\":{\"statusCode\":502,\"payload\":{\"statusCode\":502,\"error\":\"Bad Gateway\",\"message\":\"Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\"},\"headers\":{}},\"uniqueId\":\"ID902\"}","timestamp":"2015-04-02T20:07:30.887Z"}
+{"level":"error","message":"[50298:bar] business:Error while doing activity.getAll","timestamp":"2015-04-02T20:07:30.887Z"}
+{"level":"info","message":"[50303:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:10:16.134Z"}
+{"level":"info","message":"[50303:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:10:16.135Z"}
+{"level":"info","message":"[50303:bar] services:{\"protocol\":\"http:\",\"hostname\":\"localhost\",\"port\":8001,\"method\":\"GET\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID393\"}","timestamp":"2015-04-02T20:10:16.135Z"}
+{"level":"info","message":"[50305:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:13:37.845Z"}
+{"level":"info","message":"[50305:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:13:37.846Z"}
+{"level":"info","message":"[50305:bar] services:{\"protocol\":\"http:\",\"hostname\":\"localhost\",\"port\":8001,\"method\":\"get\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID804\"}","timestamp":"2015-04-02T20:13:37.846Z"}
+{"level":"error","message":"[50305:bar] services:{\"name\":\"NetConnectNotAllowedError\",\"message\":\"Client request error: Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\",\"trace\":[{\"method\":\"GET\",\"url\":\"http://localhost:8001/activities\"}],\"isBoom\":true,\"isServer\":true,\"data\":null,\"output\":{\"statusCode\":502,\"payload\":{\"statusCode\":502,\"error\":\"Bad Gateway\",\"message\":\"Nock: Not allow net connect for \\\"localhost:8001/activities\\\"\"},\"headers\":{}},\"uniqueId\":\"ID804\"}","timestamp":"2015-04-02T20:13:37.848Z"}
+{"level":"error","message":"[50305:bar] business:Error while doing activity.getAll","timestamp":"2015-04-02T20:13:37.848Z"}
+{"level":"info","message":"[50306:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:14:05.991Z"}
+{"level":"info","message":"[50310:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:14:40.161Z"}
+{"level":"info","message":"[50310:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:14:40.162Z"}
+{"level":"info","message":"[50310:bar] services:{\"protocol\":\"http:\",\"hostname\":\"127.0.0.1\",\"port\":8001,\"method\":\"get\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID549\"}","timestamp":"2015-04-02T20:14:40.163Z"}
+{"level":"info","message":"[50311:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:15:00.258Z"}
+{"level":"info","message":"[50311:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:15:00.259Z"}
+{"level":"info","message":"[50311:bar] services:{\"protocol\":\"http:\",\"hostname\":\"127.0.0.1\",\"port\":8001,\"method\":\"get\",\"path\":\"/activities\",\"payload\":{\"name\":\"Jane Doe\",\"age\":25,\"locale\":\"Fr_fr\"},\"uniqueId\":\"ID582\"}","timestamp":"2015-04-02T20:15:00.260Z"}
+{"level":"info","message":"[50313:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:20:19.704Z"}
+{"level":"info","message":"[50313:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:20:19.705Z"}
+{"level":"info","message":"[50313:bar] services:{\"id\":[],\"profileId\":[],\"uniqueId\":\"ID191\"}","timestamp":"2015-04-02T20:20:19.705Z"}
+{"level":"info","message":"[50314:bar] middleware:Setting profile info","timestamp":"2015-04-02T20:22:23.460Z"}
+{"level":"info","message":"[50314:bar] middleware:Setting permissions","timestamp":"2015-04-02T20:22:23.461Z"}
+{"level":"info","message":"[50314:bar] services:{\"profileId\":[\"ID-123\"],\"method\":[\"get\"],\"path\":[\"/activities\"],\"uniqueId\":\"ID979\"}","timestamp":"2015-04-02T20:22:23.462Z"}

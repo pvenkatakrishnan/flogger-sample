@@ -1,0 +1,10 @@
+{
+    "activity_getAll": {
+        "profileId": "$.payload.profileId",
+        "method": "$.method",
+        "path": "$.path"
+    },
+    "activity_getAll_resp": {
+        "types": "$[*].type"
+    }
+}
